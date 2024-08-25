@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+</head>
+<style>
+    .profile{
+        color:black;
+        background-color:cadetblue;
+        margin:auto;
+        border-color:solid blue;
+        border-radius:5px;
+        width:300px;
+        align-self: auto;
+        
+    }
+    .box{
+        color:black;
+        background-color:rgb(219, 143, 143);
+        margin:auto;
+        width:200px;
+        border: solid black ;
+        border-radius:5px;
+        border-color:black;
+        align-self: auto;
+        text-align: center;
+
+    }
+    .css{
+        color:black;
+        background-color: cadetblue;
+        width:300px;
+        margin:auto;
+        width:500px;
+        border:solid blue;
+        border-radius:5px;
+        align-self: auto;
+    }
+    
+</style>
+<body>
+    <h3 class="profile">Anushka Kumari Paswan</h3><br>
+    <div class="css">
+    <form action type="backened">
+        <h4 class="box">Personal Information</h4><br>
+            <label for="name">Full Name :</label>
+            <input type="text" name="myname" id="name">
+            <br><br>
+            <div class="special">
+            <label for="dateofbirth">Date of Birth :</label>
+            <input type="date" name="mydob" id="dateofbirth">
+            <br>
+            <br>
+            
+            <label for="gender">Gender :</label>
+            Male :   <input type="radio" name="mygender" id="mygender"> Female :<input type="radio" name="mygender" id="gender">
+            Other : <input type="radio" name="mygender" id="gender">
+            <hr size="4px noshade ">
+            <br><br>
+        <h4 class="box">Contact Information </h4><br>
+            <label for="email">Email :</label>
+            <input type="text" name="myemail" id="email">
+        <br><br>
+            <label for="contact">My Contact :</label>
+            <input type="number" name="mynumber" id="contact">
+        <br><br>
+            <label for="adderess">Adderess :</label>
+        <input type="text" name="myadderess" id="adderess">
+        <hr size="4px noshade">
+    <br><br>
+    <h4 class="box">Education</h4><br>
+        <label for="education">Highest Degree :</label>
+        <select name="myeducation" id="education">
+            <option value="high">High </option>
+            <option value="inter">Intermediate </option>
+            <option value="bachelor">Bachelor</option>
+            <option value="master">Master </option>
+            <option value="phd">Ph.d </option>
+        </select>
+        <hr size="4px noshade">
+    <br><br>
+        <label for="study">Field of study :</label><br>
+        <input type="text" name="mystudy" id="study" height="50px  width=100px">
+        <hr size="4px noshade, color:red ">
+    <br><br>
+    <h4 class="box">Work Experience :</h4><br>
+        <label for="job">Job Title</label>
+        <input type="text" name="myjob" id="job">
+        <hr size="4px noshade">
+    <br><br>
+        <label for="company">Name of Company :</label>
+        <input type="text" name="mycompany" id="company">
+        <hr size="4px noshade">
+    <br><br>
+
+        <label for="experience">Years of Experience :<label>
+            <input type="number" name="myexperience" id="experience">
+            <hr size="4px noshade ">
+        <br><br>
+        <h4 class="box">Skill</h4><br>
+      
+            <label for="skill">Skill</label>
+            <select name="myskill" id="skill">
+                <option value="html">Hmtl</option>
+                <option value="css">CSS</option>
+                <option value="java">Java Script</option>
+                <option value="python">Python</option>
+                <option value="cpp">C++</option>
+            </select>
+            <hr size="4px noshade">
+        <br><br>
+        <h4 class="box">Additional Information</h4><br>
+       
+            <label for="add...infor...">Bio</label><br>
+                <textarea name="mytext" id="add...infor..." row="10" cols="20"></textarea>
+                <hr size="4px noshade">
+        <br><br>
+       
+            <label for="image">Image :</label>
+            <input type="file" alt="Error">
+            <hr size="4px noshade">
+        
+        <br><br>
+        
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            <hr size="4px noshade">
+    </div>
+    </form>
+</body>
+</html>
